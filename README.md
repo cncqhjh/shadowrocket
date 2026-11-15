@@ -1,13 +1,4 @@
 # **Perfect Rules**
-## ✈️推荐机场
-[点击：九云机场8折优惠](https://n0de.jiuyyq.com)
-专属优惠码：TowpY74S
-- 高性能海外机场，海外团队，无跑路风险
-- 集群负载均衡设计，高速专线，极低延迟，无视晚高峰，4K 秒开
-- ⭐19.9元 500G，中秋限时优惠⭐
-- ⭐29.9元1000G，中秋显示优惠⭐
-- 优惠套餐每月仅需 6 元，150G 流量，年付 8 折
-- 解锁流媒体及 ChatGPT
 
 **阿尔忒弥斯实验室维护的代理分流配置方案。**
 
@@ -17,13 +8,13 @@
 
 **① Clash Mi → ② Clash / Mihomo → ③ V2rayN**
 
-| **支持客户端** | **版本** | **客户端** | **功能**              | **配置文件**                                              | **使用方式**             | **教程视频**                 |
-| -------------- | -------- | ---------- | --------------------- | --------------------------------------------------------- | ------------------------ | ---------------------------- |
-| Shadowrocket   | 3.0      | 苹果端     | 完美分流/DNS防泄露    | [`perfect_rules.conf`](./Shadowrocket/perfect_rules.conf) | 一键导入                 | https://youtu.be/zppJJyy6BYo |
-| FlClash        | 3.0      | 全平台     | 完美分流/DNS防泄露    | [`FlClash.js`](./Clash/FlClash.js)                        | 一键导入                 | https://youtu.be/7RXy43TpjTs |
-| **Clash Mi**   | 3.0      | 全平台     | 完美分流 / DNS 防泄漏 | [`Clash_mi.js`](./Clash/Clash_mi.js)                      | 一键导入                 | https://youtu.be/jmJiyDSmZE0 |
-| Clash / Mihomo | 3.0      | PC         | 完美分流 / DNS 防泄漏 | [`Clash_merge.yaml`](./Clash/Clash_merge.yaml)            | 复制粘贴（见下方）       | https://youtu.be/2A2SdHP_NKA |
-| V2rayN         | 2.0      | PC         | 完美分流              | [`V2rayN.json`](./V2rayN.json)                            | 下载文件后配置（见下方） | https://youtu.be/eaTmKWPyVG4 |
+| **支持客户端** | **版本** | **客户端** | **功能**              | **配置文件**                                              | **使用方式**             |
+| -------------- | -------- | ---------- | --------------------- | --------------------------------------------------------- | ------------------------ |
+| Shadowrocket   | 3.0      | 苹果端     | 完美分流/DNS防泄露    | [`perfect_rules.conf`](./Shadowrocket/perfect_rules.conf) | 一键导入                 |
+| FlClash        | 3.0      | 全平台     | 完美分流/DNS防泄露    | [`FlClash.js`](./Clash/FlClash.js)                        | 一键导入                 |
+| **Clash Mi**   | 3.0      | 全平台     | 完美分流 / DNS 防泄漏 | [`Clash_mi.js`](./Clash/Clash_mi.js)                      | 一键导入                 |
+| Clash / Mihomo | 3.0      | PC         | 完美分流 / DNS 防泄漏 | [`Clash_merge.yaml`](./Clash/Clash_merge.yaml)            | 复制粘贴（见下方）       |
+| V2rayN         | 2.0      | PC         | 完美分流              | [`V2rayN.json`](./V2rayN.json)                            | 下载文件后配置（见下方） |
 
 **推荐：** 如果你希望在**不同设备上使用统一的**分流规则，并同时解决 DNS 泄漏问题，可以优先选择 **Clash Mi 3.0**。
 
@@ -38,7 +29,7 @@ macOS和iOS端的Shadowrocket可以使用项目提供的[`perfect_rules.conf`](.
 **GitHub Raw：**
 
 ```text
-https://github.com/n0de-sudo/Perfect-Rules/raw/refs/heads/main/Shadowrocket/perfect_rules.conf
+https://raw.githubusercontent.com/cncqhjh/shadowrocket/main/Shadowrocket/perfect_rules.conf
 ```
 
 ## **① ⭐ Clash Mi 3.0：完美分流 + DNS 防泄漏——懒人版**
@@ -64,7 +55,7 @@ FlClash 用户可以使用项目提供的[`FlClash.js`](./Clash/FlClash.js)，�
 **GitHub Raw：**
 
 ```text
-https://github.com/n0de-sudo/Perfect-Rules/blob/main/Clash/FlClash.js
+https://raw.githubusercontent.com/cncqhjh/shadowrocket/main/Clash/FlClash.js
 ```
 
 
@@ -107,7 +98,7 @@ Clash Mi 支持多平台，并采用统一的配置逻辑。
 **GitHub Raw：**
 
 ```text
-https://raw.githubusercontent.com/n0de-sudo/Perfect-Rules/main/Clash/Clash_mi.js
+https://raw.githubusercontent.com/cncqhjh/shadowrocket/main/Clash/Clash_mi.js
 ```
 
 ⚠️ **重要：**
@@ -147,7 +138,7 @@ V2rayN 用户目前使用的是完美分流 2.0 版本。下载配置后，需�
 
 **第二步：** 打开 V2rayN 👉 设置 👉 路由设置 👉 添加规则集 👉 从文件中导入规则 👉 选择刚刚下载的 `V2rayN.json` 文件。
 
-**第三步：** 按需创建自己的专用代理组 / 专用分流规则（根据视频教程），配置好之后即可使用。
+**第三步：** 按需创建自己的专用代理组 / 专用分流规则，配置好之后即可使用。
 
 ------
 
@@ -163,22 +154,6 @@ Perfect Rules 已经针对常见使用场景进行了分类：
 + 🏠 局域网 → **DIRECT**
 
 规则会持续更新和优化。
-
-------
-
-## **📺 视频教程**
-
-本项目相关配置会在 **阿尔忒弥斯实验室** YouTube 频道进行详细演示。
-
-[**阿尔忒弥斯实验室 · Artemis Lab**](https://www.youtube.com/@ArtemisLab_Tech)
-
-------
-
-## **⭐ 支持项目**
-
-如果 **Perfect Rules** 对你有帮助，欢迎给项目一个 ⭐ Star。
-
-也欢迎提交 Issue 或 Pull Request，共同完善规则。
 
 ------
 

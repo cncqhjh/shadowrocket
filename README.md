@@ -1,6 +1,6 @@
 # **Perfect Rules**
 
-**阿尔忒弥斯实验室维护的代理分流配置方案。**
+** cncqhjh的代理分流配置方案。**
 
 ## **🚀 快速开始**
 
@@ -186,4 +186,4 @@ Perfect Rules 会持续维护。
 
 *Make complex routing simple.*
 
-**阿尔忒弥斯实验室 · Artemis Lab**
+**cncqhjh**

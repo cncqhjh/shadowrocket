@@ -28,6 +28,9 @@ DOMAIN,guzzoni.apple.com
 # > Claude
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,ip.net.coffee
+DOMAIN-SUFFIX,ippure.com
 
 # > Microsoft Copilot
 DOMAIN,copilot.microsoft.com

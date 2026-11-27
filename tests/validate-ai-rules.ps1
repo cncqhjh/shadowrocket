@@ -9,7 +9,11 @@ $requiredRules = @(
     'DOMAIN-SUFFIX,claude.ai',
     'DOMAIN-SUFFIX,claude.com',
     'DOMAIN-SUFFIX,ip.net.coffee',
-    'DOMAIN-SUFFIX,ippure.com'
+    'DOMAIN-SUFFIX,ippure.com',
+    'DOMAIN-SUFFIX,antigravity.google',
+    'DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app',
+    'DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app',
+    'DOMAIN-SUFFIX,antigravity-unleash.goog'
 )
 
 $rules = @(Get-Content -LiteralPath $aiPath | ForEach-Object { $_.Trim() } | Where-Object {
